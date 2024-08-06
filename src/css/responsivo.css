@@ -6,6 +6,7 @@
 
     main .personagem .imagem {
         height: 85%;
+        object-position: -125vw;
     }
 
     .conteudo {
@@ -38,7 +39,8 @@
 
 @media (max-width: 425px) {
     main .personagem .imagem {
-        height: auto;
+        height: 65vh;
+        object-position: unset;
     }
 
     .conteudo .logo {
@@ -47,7 +49,7 @@
     }
 
     .conteudo {
-        top: -30%;
+        top: -20%;
     }
 
     .conteudo .nome-personagem {
@@ -56,7 +58,7 @@
 
     .botoes {
         padding: 20px;
-        top: -20%;
+        top: -5%;
     }
 
     .botoes .botao img {
